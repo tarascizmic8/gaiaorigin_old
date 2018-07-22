@@ -1,4 +1,32 @@
 
+[B]3.0.0 (2018.07.22)[/B]
+- Integrated Orion.
+- Fixed major bug in Incursion and Placenta scrapers.
+- Fixed enabling and disabling Placenta scraper.
+- Better incorporation of Incursion and Placenta resolvers.
+- Added ResolveUrl to list of hoster domains.
+- Filters for excluding video and audio codecs.
+- More customizations for stream labels.
+- Change some label colors.
+- Fixed a few minor errors with searching.
+- Fixed Elementum and Quasar metadata.
+- Fixed show arrivals section.
+- Fixed KickAssTorrents provider.
+- Fixed MagnetDl provider.
+- Fixed TorrentFunk provider.
+- Improved torrent seed counter.
+- Fixed automatic backup import.
+- Changed general drug movie list.
+- Expanded filter settings.
+- Improved the metadata features.
+- Fixed a provider verification bug.
+- Extended uploader list.
+- Added new video codecs.
+- Added new audio codecs.
+- Fixed language order.
+- Fixed VPN detection.
+- Fixed autoplay cancel loop.
+
 [B]2.3.0 (2018.05.17)[/B]
 - Fixed movie and episode directory listing.
 - Added Trakt premiered, added, and watched date sorting.
