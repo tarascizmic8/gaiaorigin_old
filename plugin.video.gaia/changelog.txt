@@ -1,4 +1,8 @@
 
+[B]3.0.1 (2018.07.24)[/B]
+- Fixed Orion integration.
+- Fixed LimeTorrents provider.
+
 [B]3.0.0 (2018.07.22)[/B]
 - Integrated Orion.
 - Fixed major bug in Incursion and Placenta scrapers.
