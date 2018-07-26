@@ -1,4 +1,7 @@
 
+[B]3.0.2 (2018.07.26)[/B]
+- Fixed debrid cache issue.
+
 [B]3.0.1 (2018.07.24)[/B]
 - Fixed Orion integration.
 - Fixed LimeTorrents provider.
