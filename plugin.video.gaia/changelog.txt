@@ -1,4 +1,9 @@
 
+[B]3.0.3 (2018.08.03)[/B]
+- Fixed another debrid cache issue.
+- Individual exceptions for Incursion and Placenta scrapers.
+- Fixed duration label exception.
+
 [B]3.0.2 (2018.07.26)[/B]
 - Fixed debrid cache issue.
 
