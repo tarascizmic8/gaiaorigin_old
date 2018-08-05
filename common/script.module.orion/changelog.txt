@@ -1,4 +1,8 @@
 
+[B]1.0.2 (2018.08.05)[/B]
+- Better support for hoster links.
+- Added the hoster name to streams.
+
 [B]1.0.1 (2018.07.24)[/B]
 - Fixed the remaining days label.
 - Reduced the default limit for free accounts.
