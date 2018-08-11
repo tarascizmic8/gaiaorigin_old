@@ -1,3 +1,28 @@
+
+[B]3.1.0 (2018.08.11)[/B]
+- Faster menu loading.
+- Fixed local caching bug.
+- Fixed title cleaning and spacing.
+- Fixed the restrictive filter bug.
+- Improved metadata title detection.
+- Fixed provider preset loading.
+- Fixed Trakt movie watchlist.
+- Default sorting for Trakt lists.
+- Fixed various other Trakt bugs.
+- Fixed season lists.
+- Fixed Orion stream age.
+- Updated provider preset lists.
+- Updated KickAssTorrents torrent provider.
+- Added BitLord torrent provider.
+- Added TorrentGalaxy torrent provider.
+- Added TorrentQuest torrent provider.
+- Added Prostylex torrent provider.
+- Added Movcr torrent provider.
+- Added Am5k8 torrent provider.
+- Added SevenTorrents torrent provider.
+- Added AvantaBg Russian torrent provider.
+- Many small bug fixes.
+
 [B]3.0.4 (2018.08.05)[/B]
 - Fixed Orion hoster links integration.
 - Faster Orion initialization.

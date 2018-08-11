@@ -1,4 +1,12 @@
 
+[B]1.0.3 (2018.08.11)[/B]
+- Authentication using email and password.
+- Fixed used and remaining limit labels.
+- Added support for anonymous accounts.
+- Added settings backup feature.
+- Added file hoster filter.
+- Fixed a few minor bugs.
+
 [B]1.0.2 (2018.08.05)[/B]
 - Better support for hoster links.
 - Added the hoster name to streams.
