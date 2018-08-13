@@ -1,4 +1,12 @@
 
+[B]3.1.1 (2018.08.13)[/B]
+- Fixed Trakt searches.
+- Faster show super info retrieval.
+- Fixed show and episode posters.
+- Fixed IMDb vote count.
+- Added additional metadata to IMDb lists.
+- Fixed caching bug.
+
 [B]3.1.0 (2018.08.11)[/B]
 - Faster menu loading.
 - Fixed local caching bug.
