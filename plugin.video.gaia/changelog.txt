@@ -1,4 +1,7 @@
 
+[B]3.1.2 (2018.08.18)[/B]
+- Fixed various Trakt list issues.
+
 [B]3.1.1 (2018.08.13)[/B]
 - Fixed Trakt searches.
 - Faster show super info retrieval.
