@@ -1391,14 +1391,18 @@
 </addon>
 
 <!-- REQUESTS -->
-<addon id="script.module.requests" name="requests" version="2.12.4" provider-name="kennethreitz, beenje">
+<addon id="script.module.requests" name="requests" version="2.19.1" provider-name="kennethreitz">
 	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.urllib3" version="1.22"/>
+		<import addon="script.module.chardet" version="3.0.4"/>
+		<import addon="script.module.idna" version="2.6"/>
+		<import addon="script.module.certifi" version="2017.07.27.1"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Python HTTP for Humans</summary>
-		<description>Packed for KODI from https://github.com/kennethreitz/requests</description>
+		<summary lang="en_GB">Python HTTP for Humans</summary>
+		<description lang="en_GB">Packed for KODI from https://github.com/requests/requests</description>
 		<platform>all</platform>
 		<language></language>
 		<license>Apache2</license>
@@ -1595,7 +1599,7 @@
 </addon>
 
 <!-- UNIVERSALSCRAPERS -->
-<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.0.2" provider-name="Team Universal">
+<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.0.9.2" provider-name="Team Universal">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1603,7 +1607,7 @@
 		<import addon="script.module.requests"/>
 		<import addon="script.module.six"/>
 		<import addon="repository.universalscrapers"/>
-		<import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
+	<import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib"/>
 	<extension point="xbmc.python.pluginsource" library="lib/default.py">
@@ -1728,21 +1732,22 @@ Trakt On Deck - Reversed to show last played first.
 </addon>
 
 <!-- PLACENTA -->
-<addon id="plugin.video.placenta" version="1.2.0" name="Placenta" provider-name="Team Afterbirth">
+<addon id="plugin.video.placenta" version="1.4.5" name="Placenta" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.placenta" />
-		<import addon="script.placenta.artwork" version="1.0.0" />
-		<import addon="script.placenta.metadata" version="1.0.0" />
+		<import addon="script.placenta.artwork" />
+		<import addon="script.placenta.metadata" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.metahandler" />
         <import addon="plugin.video.youtube"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
         <provides>audio</provides>
 	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Placenta</summary>
 		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
@@ -1751,6 +1756,7 @@ The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
 This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
 </disclaimer>
 		<platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
 		<license>Beerware rev. 42</license>
 		<assets>
 			<icon>icon.png</icon>
@@ -1763,20 +1769,22 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<news></news>
 	</extension>
 </addon>
-<addon id="script.module.placenta" name="Placenta Module" version="1.2.8" provider-name="Team Afterbirth">
+<addon id="script.module.placenta" name="Placenta Module" version="1.7.5" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
 		<summary lang="en">Placenta</summary>
 		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <license>Beerware rev. 42</license>
 	</extension>
 </addon>
-<addon id="script.placenta.artwork" version="1.0.7" name="Placenta Artwork" provider-name="Team Afterbirth">
+<addon id="script.placenta.artwork" version="1.0.8" name="Placenta Artwork" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
