@@ -1,4 +1,12 @@
 
+[B]1.1.0 (2018.09.09)[/B]
+- Integration support for external addons.
+- Added filter for unknown file sizes.
+- Fixed invalid authentication notification.
+- Possible fix for settings reset.
+- Added video quality to sequential scraping mode.
+- Many small fixes and additions.
+
 [B]1.0.3 (2018.08.11)[/B]
 - Authentication using email and password.
 - Fixed used and remaining limit labels.
