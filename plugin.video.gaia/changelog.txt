@@ -1,4 +1,21 @@
 
+[B]3.2.0 (2018.09.09)[/B]
+- Way faster menu loading.
+- Possible fix for constant settings reset.
+- Fixed resolving from external addons.
+- Fixed bug that incorrectly filtered out unsupported links.
+- Many fixes for hoster stream playback failures.
+- Better integration of Orion hoster streams.
+- Support for 1440P video quality detection.
+- Fixed provider presets.
+- Various label format improvements.
+- Better CloudFlare circumvention.
+- Updated Torrent9 provider.
+- Updated YggTorrent provider.
+- Added YggTorrent account.
+- Fixed Demonoid provider.
+- Many small bug fixes.
+
 [B]3.1.2 (2018.08.18)[/B]
 - Fixed various Trakt list issues.
 
