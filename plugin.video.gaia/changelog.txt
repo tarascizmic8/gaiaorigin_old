@@ -1,4 +1,7 @@
 
+[B]3.2.1 (2018.09.12)[/B]
+- Fixed manual download feature.
+
 [B]3.2.0 (2018.09.09)[/B]
 - Way faster menu loading.
 - Possible fix for constant settings reset.
